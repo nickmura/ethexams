@@ -1,2 +1,2 @@
 # evm-exam
-Open source EVM quizzes and exam on for beginners, intermediate and experts.
+This is an open source education initative, for the community created by Nick Mura for questionnaire, quizzes and exams on the Ethereum blockchain. I intend to discuss a wide topic of 
