@@ -1,2 +1,2 @@
-# evmexams
-Open source EVM quizzes and exam on for beginners, intermediate and experts.
+# ethexams.com
+ETHexams is a community based, open source education initative intended to develop questionnaires (exams and quizzes) for anyone who wants to measure their learning progress, evaluate their understanding, or identify gaps in their knowledge of Ethereum. Everyone is encouraged to review and submit knowledge, resources, information, and validate our resources provided, contributing to the mission of this project.
