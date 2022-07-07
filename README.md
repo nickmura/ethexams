@@ -1,6 +1,7 @@
 ethexams.com
 ============
-![ethexams_banner](https://user-images.githubusercontent.com/92566574/177671260-06b33c4a-1496-4dd8-9ff6-1fa9e5185030.png)
+
+![ethexams_banner](https://user-images.githubusercontent.com/92566574/177671391-238ff8a7-dcd4-4ec1-bac2-6452092ba796.png)
 
 
 
