@@ -19,4 +19,4 @@ ETHexams is a community based, open source education initative intended to devel
 *   [Ethereum.org](https://ethereum.org/en/developers/docs/ ) development documentation
 *   [Soliditylang.org](https://docs.soliditylang.org/) (Solidity) documentation
 
-_**For any details or more questions, regards to contributing, please DM [@nickmura2](http://twitter.com/nickmura2) on twitter.*_
+_**For any details or more questions, regards to contributing, please email nickmuradev@gmail.com or DM [@nickmura2](http://twitter.com/nickmura2) on twitter.*_
