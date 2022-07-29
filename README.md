@@ -12,8 +12,10 @@ ETHexams is a community based, open source education initative intended to devel
 *   Cover multiple aspects of knowledge for Ethereum (Transactions, consensus, cryptography, solidity, infrastructure, etc)
 *   Provide a challenging educational resource, with dedication for providing the best quality information with the review of the community
 *   Encourage others to submit knowledge and support the initative.
+*   Provide video demonstrations and flash card style exercises for various topics and levels of understanding
+*   Provide security challenges for users for different topics! 
 
-**The resources, and references used for this project..**
+**The resources, and references used for the quizzes/questionnaire thus far...**
 
 *   Mastering Ethereum by Andreas M. Antonopoulos ([github version](https://github.com/ethereumbook/ethereumbook/blob/develop/book.asciidoc) or on [Amazon US](https://www.amazon.com/Mastering-Ethereum-Building-Smart-Contracts/dp/1491971940))
 *   [Ethereum.org](https://ethereum.org/en/developers/docs/ ) development documentation
