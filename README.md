@@ -1,4 +1,4 @@
-ethexams.com
+ethexams.com - Providing educational resources for Ethereum
 ============
 
 ![ethexams_banner](https://user-images.githubusercontent.com/92566574/177671391-238ff8a7-dcd4-4ec1-bac2-6452092ba796.png)
