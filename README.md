@@ -1,63 +1,24 @@
-# Svelte Kit Ethers Template
+ethexams.com - Providing educational resources for Ethereum
+============
 
-## Basic Setup
-
-Install dependencies
-```bash
-yarn
-```
-Enter your own or a RPC provider endpoint for your project in the `rpcUrl` parameter of `./src/lib/config.ts` to make on-chain calls, and interact with Metamask, etc. You can use the default RPC provider used, or replace `https://rpc.ankr.com/eth` with your RPC provider.
-```js
-export const NETWORKS: Network[] = [
-  {
-    chainId: 1,
-    rpcUrl: 'https://rpc.ankr.com/eth', // Your RPC endpoint, add here
-...
-```
-
-Start development server
-```bash
-yarn dev
-```
+![ethexams_banner](https://user-images.githubusercontent.com/92566574/177671391-238ff8a7-dcd4-4ec1-bac2-6452092ba796.png)
 
 
 
-**Building**
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
 
-```bash
-yarn build
-```
+[ETHexams](https://ethexams.com) is a community based, open source education initative intended to develop questionnaires (exams and quizzes), demonstrations, security challenges and more resources for anyone who wants to measure their learning progress, evaluate their understanding, or identify gaps in their knowledge of Ethereum. Everyone is encouraged to review and submit knowledge, resources, information, and validate our resources provided, contributing to the mission of this project. Our goals are to...
 
-## Features
+*   Provide concise and educational information for Ethereum
+*   Cover multiple aspects of knowledge for Ethereum (Transactions, consensus, cryptography, solidity, infrastructure, etc)
+*   Provide a challenging educational resource, with dedication for providing the best quality information with the review of the community
+*   Encourage others to submit knowledge and support the initative.
+*   Provide video demonstrations and flash card style exercises for various topics and levels of understanding
+*   Provide security challenges for users for different topics! 
 
-### Wallet & Providers
+**The resources, and references used for the quizzes/questionnaire thus far...**
 
-After adding a list of networks in `./src/lib/config.ts`, you have access to ethers providers for each network.
-```ts
-import { networkProviders: { [chainId: string]: providers.JsonRpcProvider } } from '$lib/eth/stores/provider'
-```
+*   Mastering Ethereum by Andreas M. Antonopoulos ([github version](https://github.com/ethereumbook/ethereumbook/blob/develop/book.asciidoc) or on [Amazon US](https://www.amazon.com/Mastering-Ethereum-Building-Smart-Contracts/dp/1491971940))
+*   [Ethereum.org](https://ethereum.org/en/developers/docs/ ) development documentation
+*   [Soliditylang.org](https://docs.soliditylang.org/) (Solidity) documentation
 
-
-Methods to connect wallets
-* `connectMetamask` - Connect Metamask or other injected wallets
-* `connectWalletConnect` - Wallet Connect Connection
-* and `disconnect`
-
-Stores for the connection information are also provided
-```ts
-import {
-    accountChainId,
-    accountProvider,
-    connected,
-    walletAddress
-} from '$lib/eth/stores/provider'
-```
-* `accountChainId` -  `{ chainId: number, supportedNetwork: boolean } ` supportedNetwork is `true` if you have provided configuration options for this network 
-* `accountProvider` -  [EIP-11933](https://eips.ethereum.org/EIPS/eip-1193) compliant provider object. Generally used with ethers.providers.Web3Provider($accountProvider)
-* `connected` - boolean
-* `walletAddress` - Defaults to 0x0000000000000000000000000000000000000000 if not connected
-
-### Contract State Syncing
-
-In `src/lib/globalState.ts` is an example usage of [ether-state](https://github.com/decentralisedtech/ether-state) - A library for syncing the state of smart contracts in your frontend.
+_**For any details or more questions, regards to contributing, please email nickmuradev@gmail.com or DM [@nickmura2](http://twitter.com/nickmura2) on twitter.*_
