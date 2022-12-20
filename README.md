@@ -6,7 +6,7 @@ ethexams.com - Providing educational resources for Ethereum
 
 
 
-ETHexams is a community based, open source education initative intended to develop questionnaires (exams and quizzes), demonstrations, security challenges and more resources for anyone who wants to measure their learning progress, evaluate their understanding, or identify gaps in their knowledge of Ethereum. Everyone is encouraged to review and submit knowledge, resources, information, and validate our resources provided, contributing to the mission of this project. Our goals are to...
+[ETHexams](https://ethexams.com) is a community based, open source education initative intended to develop questionnaires (exams and quizzes), demonstrations, security challenges and more resources for anyone who wants to measure their learning progress, evaluate their understanding, or identify gaps in their knowledge of Ethereum. Everyone is encouraged to review and submit knowledge, resources, information, and validate our resources provided, contributing to the mission of this project. Our goals are to...
 
 *   Provide concise and educational information for Ethereum
 *   Cover multiple aspects of knowledge for Ethereum (Transactions, consensus, cryptography, solidity, infrastructure, etc)
